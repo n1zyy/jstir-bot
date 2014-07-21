@@ -51,15 +51,16 @@ end
           "you're an aeolus developer",
           "YOUR MOM",
           "Klaus would be disappointed",
-          "If you don't behave, I'll tell lifeless"
+          "If you don't behave, I'll tell lifeless",
+          "you look exactly like tzumainn"
         ]
      
         prev_nick = bot.nick
         bot.nick = 'JSTIR_THE_CHANNEL_NAZI'
         m.reply "><}}}*> #{slappee}"
-        m.reply "#{slappee}: you need take this upstream, [gender goes here]."
-        insults << "you look exactly like tzumainn" unless slappee == 'tzumainn'
+        m.reply "#{slappee}: you need take this upstream, $gender."
         m.reply "#{slappee}: #{insults.sample}"
+        sleep(0.5)  # let's see if this fixses the broken action order 
         bot.nick = prev_nick
       end
     end
