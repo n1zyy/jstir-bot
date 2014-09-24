@@ -10,6 +10,8 @@ class OpenStack
     case m.message
     when /openstack/
       pass
+    when /OPENSTACK/
+      pass
     when /OpenStack/
       pass
     end
