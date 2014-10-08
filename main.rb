@@ -51,7 +51,7 @@ end
           "you're an aeolus developer",
           "YOUR MOM",
           "Klaus would be disappointed",
-          "If you don't behave, I'll tell lifeless",
+          "If you don't behave, I'll tell SpamapS",
           "you look exactly like tzumainn"
         ]
      
